@@ -14,3 +14,12 @@ use project;
 -- MAGIC .withColumn("timestamp",col("timestamp").cast("timestamp"))\
 -- MAGIC .drop("products")
 -- MAGIC df_final.write.mode("overwrite").saveAsTable("project.silver")
+
+-- COMMAND ----------
+
+-- MAGIC %python
+-- MAGIC print("hello world")
+
+-- COMMAND ----------
+
+
